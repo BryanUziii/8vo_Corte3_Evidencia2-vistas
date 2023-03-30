@@ -1,0 +1,1 @@
+/api/* http://ec2-35-87-94-199.us-west-2.compute.amazonaws.com:3030/:splat 200!

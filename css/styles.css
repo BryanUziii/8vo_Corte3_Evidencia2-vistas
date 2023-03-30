@@ -1,0 +1,119 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #dbdbdb!important;
+}
+
+.centrar{
+  display: grid;
+  place-items: center;
+}
+
+.formulario{
+    margin: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.acciones {
+    margin: 5px;
+}
+
+.buscar{
+    display: flex;
+}
+.buscar div{
+    margin: 5px;
+}
+
+
+
+.input-mac {
+    display: inline-block;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 4px 8px;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  .input-mac input[type="text"] {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    padding: 2px 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .select-mac select {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .select-mac select::-ms-expand {
+    display: none;
+  }
+  
+  .select-mac select:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+  }
+  
+  .select-mac select:focus {
+    outline: none;
+  }
+  
+  .select-mac select option {
+    font-size: 1rem;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+/* Estilos para el botón principal */
+.button {
+    background-color: #f5f5f7;
+    color: #3a3a3c;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Estilos para el botón al pasar el mouse */
+  .button:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
+    color: #3a3a3c;
+    border: 1px solid #c4c4c4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  }
+  
+  /* Estilos para el botón al hacer clic */
+  .button:active {
+    background-color: #c4c4c4;
+    color: #3a3a3c;
+    border: 1px solid #c4c4c4;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
